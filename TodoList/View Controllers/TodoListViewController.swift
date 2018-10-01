@@ -69,7 +69,6 @@ class TodoListViewController: UITableViewController {
         moveRowAt sourceIndexPath: IndexPath,
         to destinationIndexPath: IndexPath) {
             todos.items.swapAt(sourceIndexPath.row, destinationIndexPath.row)
-            todos.save()
     }
     
     // MARK: - TableView Delegate
